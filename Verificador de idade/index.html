@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <h2>Digite a data do seu nascimento:</h2>
+        <div class="ano"><input type="number" id="txtano" name="txtano"></div>
+        <h2>Diga o seu sexo:</h2>
+        <div id="ano" class="ano"><label for="feminino">F</label>
+            <input type="radio" id="feminino" name="genero" value="feminino" checked>
+            <label for="genero">M</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+        </div>
+        <button type="submit" value="verificar" onclick="verificar()">Enviar</button>
+        <!--<div id="resimg"><img id="img" src="../Hora do dia/img/manha.png" alt="Foto da pessoa"></div>-->
+        <div id="res" class="res">Preencha os dados acima para ver o resultado!</div>
+    </main>
+    <footer>
+        <p>@joaovitorbd_28</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
